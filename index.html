@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css//bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+        <title>Document</title>
+</head>
+<body>
+    
+    <div class="container" id="puntaje-card">
+        <h1>Ronda: <span id="ronda"></span></h1>
+        <h1>Puntaje: <span id="puntaje"></span></h1>
+        
+        <a href="#" id="btn_acabar" class="btn-menu btn btn-info  btn-block hover-overlay ">Acabar Juego</a><br>
+        <a href="#" id="btn_record" class="btn-menu btn btn-info btn-block hover-overlay mt-2" >Puntajes Record</a>
+    </div>
+    <div class="" id="initial_modal">
+        <div class="" id="modal-content">
+            <h3>Ingrese nombre</h3>
+            <input type="text" id="usuario"/>
+            <br>
+            <a href="#" class="btn btn-info mt-4" id="btn_modal">Continuar</a>
+        </div>
+    </div>
+
+    <div class="" id="puntajes_modal" hidden>
+        <div class="" id="puntajes-content">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">nombre</th>
+                    <th scope="col">puntaje</th>
+                    <th scope="col">ronda</th>
+                    
+                  </tr>
+                </thead>
+                <tbody id="tabla_puntajes">
+                  
+                  
+                </tbody>
+              </table>
+            <br>
+            <a href="#" class="btn btn-info mt-4" id="btn_modal_puntaje">Continuar</a>
+        </div>
+    </div>
+
+    <div class="" id="acabar_modal" hidden>
+        <div class="" id="acabar-content">
+            <h3>¿Desea retirarse?</h3>
+            
+            
+            <a href="#" class="btn btn-info mt-4" id="btn_si_finalizar">Si</a>
+            <a href="#" class="btn btn-info mt-4" id="btn_no_finalizar">No</a>
+        </div>
+    </div>
+
+    <div class="" id="fin_modal" hidden >
+        <div class="" id="fin-content">
+            <h1>Gracias por jugar!!</h1>
+            <br>
+            <h3>Puntaje obtenido:  <span id="puntaje_obtenido"></span></h3>
+            <br>
+            <h3>Maxima ronda:  <span id="maxima_ronda"></span></h3>
+
+            <a href="" class="btn btn-info mt-4" id="btn_modal">Volver a jugar</a>
+        </div>
+    </div>
+    
+
+
+    <div class="contianer text-center"> 
+        <img id="logo" src="./css/millonario1.png " alt="">
+    <div class="contianer text-center"> 
+
+    <div class="container">
+        <div class="" id="card-pregunta">
+            <p class="" id="pregunta">
+                    
+            </p>
+        </div>
+    </div>
+    
+    <div class="container" id='answers' >
+
+        <div class="row">
+            <div class="col">
+                <a href="#" class="btn btn-warning btn-block hover-overlay">
+                    <p class=""  id="res1">
+                       
+                    </p>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-warning btn-block  hover-overlay">
+                    <p id="res2">
+                        b.
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a href="#" class="btn btn-warning btn-block  hover-overlay">
+                    <p id="res3">
+                        c.
+                    </p>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-warning btn-block  hover-overlay">
+                    <p id="res4">
+                        d.
+                    </p>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    
+
+   
+        
+</body>
+
+
+  
+  
+
+<script src="js/index.js"></script>
+</html>
